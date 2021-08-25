@@ -13,6 +13,7 @@
 		8090C4D725F8FB9100939927 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8090C4D625F8FB9100939927 /* Preview Assets.xcassets */; };
 		8090C4E225F8FB9100939927 /* echoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8090C4E125F8FB9100939927 /* echoTests.swift */; };
 		8090C4ED25F8FB9100939927 /* echoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8090C4EC25F8FB9100939927 /* echoUITests.swift */; };
+		C5EFEE3A26D5F92300D93246 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFEE3926D5F92300D93246 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8090C4E825F8FB9100939927 /* echoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = echoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8090C4EC25F8FB9100939927 /* echoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = echoUITests.swift; sourceTree = "<group>"; };
 		8090C4EE25F8FB9100939927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5EFEE3926D5F92300D93246 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				8090C4CF25F8FB8E00939927 /* echoApp.swift */,
 				8090C4D125F8FB8E00939927 /* ContentView.swift */,
+				C5EFEE3926D5F92300D93246 /* test.swift */,
 				8090C4D325F8FB9100939927 /* Assets.xcassets */,
 				8090C4D825F8FB9100939927 /* Info.plist */,
 				8090C4D525F8FB9100939927 /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8090C4D225F8FB8E00939927 /* ContentView.swift in Sources */,
+				C5EFEE3A26D5F92300D93246 /* test.swift in Sources */,
 				8090C4D025F8FB8E00939927 /* echoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +423,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"echo/Preview Content\"";
+				DEVELOPMENT_TEAM = B244ZFCAGA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = echo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -440,6 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"echo/Preview Content\"";
+				DEVELOPMENT_TEAM = B244ZFCAGA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = echo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
